@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://nickforge.pages.dev/sitemap.xml
+Sitemap: https://nickforge.websapps.workers.dev/sitemap.xml
