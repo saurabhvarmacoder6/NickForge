@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://nickforge.pages.dev/sitemap.xml
