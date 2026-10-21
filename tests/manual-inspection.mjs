@@ -1,0 +1,17 @@
+import { generateNames } from "../src/utils/generator.js";
+console.log("=== pro / saurabh ===");
+console.log(generateNames({ input: "saurabh", category: "pro", count: 8 }).map(r => r.nickname).join("\n"));
+console.log("=== small-caps / saurabh ===");
+console.log(generateNames({ input: "saurabh", category: "small-caps", count: 4 }).map(r => r.nickname).join("\n"));
+console.log("=== fullwidth / Shadow ===");
+console.log(generateNames({ input: "Shadow", category: "fullwidth", count: 4 }).map(r => r.nickname).join("\n"));
+console.log("=== decorative / Devil ===");
+console.log(generateNames({ input: "Devil", category: "decorative", count: 6 }).map(r => r.nickname).join("\n"));
+console.log("=== competitive / RDX ===");
+console.log(generateNames({ input: "RDX", category: "competitive", count: 6 }).map(r => r.nickname).join("\n"));
+console.log("=== minimal / saurabh ===");
+console.log(generateNames({ input: "saurabh", category: "minimal", count: 4 }).map(r => r.nickname).join("\n"));
+console.log("=== clean / saurabh ===");
+console.log(generateNames({ input: "saurabh", category: "clean", count: 4 }).map(r => r.nickname).join("\n"));
+console.log("=== symbol / saurabh ===");
+console.log(generateNames({ input: "saurabh", category: "symbol", count: 4 }).map(r => r.nickname).join("\n"));
